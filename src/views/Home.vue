@@ -1,18 +1,22 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+   <h2>Generalidades</h2>
+   <p>
+     Esta es la vista inicial. En la misma usamos un componente <b>InvierteCadena</b>
+     que permite que el usuario escriba una cadena de texto y la devuelve invertida y en mayúsculas.
+   </p>
+   <InvierteCadena></InvierteCadena>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import InvierteCadena from '@/components/InvierteCadena.vue'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    InvierteCadena
   }
 }
 </script>
