@@ -14,7 +14,7 @@
         </b-collapse>
       </b-container>
     </b-navbar>
-    <div class="jumbotron mt-1">
+    <div class="jumbotron">
       <h3>Ejemplo de Vue.js, usando Vue Router, Boostrap Vue y Vuex</h3>
       <small>
         Este es un ejemplo del uso de <b>Vue.js</b>, <b>Vue Router</b>, <b>Bootstrap Vue</b> y 
@@ -40,7 +40,8 @@ export default {
   .jumbotron{
     background-color:navy;
     padding: 30px;
-    color:white
+    color:white;
+    border-radius: 0;
   }
 
   .router-link-active{
